@@ -601,3 +601,4 @@ jobs:
             echo "📜 最近日志（最后 30 行）:"
             tail -30 logs/stock_analysis_*.log 2>/dev/null || echo "无日志"
           fi
+          # 2026-11-28 re-commit to re-register fork schedule (safe to delete)
